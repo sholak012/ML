@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+*.log
+
+# Крупные чекпоинты и артефакты обучения (GitHub не подходит для многих ГБ)
+results_google-mt5-small/
+results_rugpt3/
+abai_rugpt3_final/
